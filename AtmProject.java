@@ -191,10 +191,10 @@ class OptionMenu extends Account
     {
         System.out.print("\n");
         System.out.println("Current Account");
-        System.out.println("Type 1-View Balance");
-        System.out.println("Type 2-Withdraw Funds");
-        System.out.println("Type 3-Deposit Funds");
-        System.out.println("Type 4-Exit");
+        System.out.println("Type 1:- View Balance");
+        System.out.println("Type 2:- Withdraw Funds");
+        System.out.println("Type 3:- Deposit Funds");
+        System.out.println("Type 4:- Exit");
         System.out.print("Enter your Choice: ");
         int choice = sc.nextInt();
         switch(choice)
